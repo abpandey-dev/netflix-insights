@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<rect width="1200" height="660" fill="#FFFFFF"/>
+<text x="40" y="52" font-size="28" fill="#0F172A" font-weight="700">Netflix insights: how it works</text>
+<text x="40" y="80" font-size="15" fill="#475569">What the world watches, using only data Netflix and IMDb publish for download</text>
+<rect x="24" y="104" width="1152" height="236" rx="14" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="44" y="132" font-size="13" fill="#1D4ED8" font-weight="700" letter-spacing="1">DATA · official downloads, no scraping</text>
+<rect x="44" y="144" width="270" height="160" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="62" y="174" font-size="15" fill="#0F172A" font-weight="700">Netflix Top 10</text>
+<text x="62" y="200" font-size="12" fill="#334155">weekly global lists with views</text>
+<text x="62" y="220" font-size="12" fill="#334155">+ Top 10 ranks in 94 countries</text>
+<text x="62" y="240" font-size="12" fill="#334155">since July 2021</text>
+<rect x="334" y="144" width="270" height="160" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="352" y="174" font-size="15" fill="#0F172A" font-weight="700">What We Watched report</text>
+<text x="352" y="200" font-size="12" fill="#334155">17,370 titles, 23.4B views</text>
+<text x="352" y="220" font-size="12" fill="#334155">Jan-Jun 2026, every title</text>
+<text x="352" y="240" font-size="12" fill="#334155">with 100k+ views</text>
+<rect x="624" y="144" width="250" height="160" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="642" y="174" font-size="15" fill="#0F172A" font-weight="700">IMDb datasets</text>
+<text x="642" y="200" font-size="12" fill="#334155">genres, year, rating,</text>
+<text x="642" y="220" font-size="12" fill="#334155">votes, directors</text>
+<text x="642" y="240" font-size="12" fill="#334155">(non-commercial use)</text>
+<rect x="910" y="144" width="246" height="160" rx="10" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<text x="928" y="174" font-size="15" fill="#15803D" font-weight="700">Title matching</text>
+<text x="928" y="200" font-size="12" fill="#334155">88% of views matched</text>
+<text x="928" y="220" font-size="12" fill="#334155">season and year rules,</text>
+<text x="928" y="240" font-size="12" fill="#334155">English + original titles</text>
+<text x="928" y="260" font-size="12" fill="#334155">random spot-checks: correct</text>
+<line x1="874" y1="224" x2="906" y2="224" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="24" y="360" width="1152" height="280" rx="14" fill="#F5F3FF" stroke="#DDD6FE"/>
+<text x="44" y="388" font-size="13" fill="#6D28D9" font-weight="700" letter-spacing="1">ANALYSE · pandas + numpy</text>
+<rect x="44" y="400" width="260" height="210" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<text x="62" y="430" font-size="15" fill="#6D28D9" font-weight="700">What the world watches</text>
+<text x="62" y="456" font-size="12" fill="#334155">top films and series</text>
+<text x="62" y="476" font-size="12" fill="#334155">top 1% of titles get 22%</text>
+<text x="62" y="496" font-size="12" fill="#334155">of all views</text>
+<text x="62" y="516" font-size="12" fill="#334155">genres, kids &amp; family</text>
+<text x="62" y="536" font-size="12" fill="#334155">non-English share</text>
+<rect x="324" y="400" width="260" height="210" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<text x="342" y="430" font-size="15" fill="#6D28D9" font-weight="700">Directors</text>
+<text x="342" y="456" font-size="12" fill="#334155">films only (series credit</text>
+<text x="342" y="476" font-size="12" fill="#334155">every episode director)</text>
+<text x="342" y="496" font-size="12" fill="#334155">best: IMDb rating, 3+</text>
+<text x="342" y="516" font-size="12" fill="#334155">films, 20k+ votes each</text>
+<text x="342" y="536" font-size="12" fill="#334155">most watched: total views</text>
+<rect x="604" y="400" width="260" height="210" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<text x="622" y="430" font-size="15" fill="#6D28D9" font-weight="700">Time and place</text>
+<text x="622" y="456" font-size="12" fill="#334155">weekly decay after debut</text>
+<text x="622" y="476" font-size="12" fill="#334155">release weekday</text>
+<text x="622" y="496" font-size="12" fill="#334155">longest in the Top 10</text>
+<text x="622" y="516" font-size="12" fill="#334155">country taste overlap</text>
+<text x="622" y="536" font-size="12" fill="#334155">local hits (India)</text>
+<rect x="884" y="400" width="272" height="210" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+<text x="902" y="430" font-size="15" fill="#1D4ED8" font-weight="700">Recommenders, tested</text>
+<text x="902" y="456" font-size="12" fill="#334155">content: genre, director,</text>
+<text x="902" y="476" font-size="12" fill="#334155">decade, language</text>
+<text x="902" y="496" font-size="12" fill="#334155">collaborative: same audiences</text>
+<text x="902" y="516" font-size="12" fill="#334155">(94 countries as &#x27;viewers&#x27;)</text>
+<text x="902" y="536" font-size="12" fill="#334155">hide 20%, measure recall@20</text>
+<text x="902" y="556" font-size="12" fill="#334155">vs a popularity baseline</text>
+</svg>
