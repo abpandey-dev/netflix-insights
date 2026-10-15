@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netflix-insights"
+version = "0.1.0"
+description = "What the world watches on Netflix: official viewing data joined to IMDb, plus a tested recommender."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Abhishek Pandey" }]
+dependencies = ["pandas>=2.1", "numpy>=1.26", "matplotlib>=3.8", "openpyxl>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
